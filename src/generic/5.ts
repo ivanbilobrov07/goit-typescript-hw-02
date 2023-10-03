@@ -8,4 +8,9 @@ interface KeyValuePair<T, U> {
   value: U;
 }
 
+const a: KeyValuePair<number, string> = {
+  key: 12,
+  value: "12",
+};
+
 export {};
